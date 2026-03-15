@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Export - Aahara Bhavan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <style>
+        :root {
+            --c-gold: #d4a24c;
+            --c-cream: #f5e6c8;
+            --f-royal: 'Cinzel', serif;
+            --f-serif: 'Cormorant Garamond', serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #1e110a;
+            /* Same as site background */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            /* Scaled up gap */
+            padding: 60px;
+            /* background: transparent; */
+        }
+
+        .logo-svg {
+            width: 200px;
+            /* Scaled up */
+            height: 200px;
+            color: var(--c-gold);
+        }
+
+        .logo-wordmark {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .logo-script {
+            font-family: var(--f-serif);
+            font-size: 3.6rem;
+            /* Scaled up */
+            color: var(--c-gold);
+            letter-spacing: .07em;
+            opacity: .9;
+            font-style: italic;
+        }
+
+        .logo-name {
+            font-family: var(--f-royal);
+            font-size: 4.4rem;
+            /* Scaled up */
+            font-weight: 400;
+            letter-spacing: .12em;
+            color: var(--c-cream);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo-container" id="logo">
+        <svg class="logo-svg" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <polygon points="40,2 78,40 40,78 2,40" fill="none" stroke="currentColor" stroke-width="2.2" />
+            <polygon points="40,14 66,40 40,66 14,40" fill="none" stroke="currentColor" stroke-width="1.3"
+                opacity="0.55" />
+            <circle cx="40" cy="2.5" r="2.5" fill="currentColor" />
+            <circle cx="77.5" cy="40" r="2.5" fill="currentColor" />
+            <circle cx="40" cy="77.5" r="2.5" fill="currentColor" />
+            <circle cx="2.5" cy="40" r="2.5" fill="currentColor" />
+            <circle cx="40" cy="15.5" r="1.8" fill="currentColor" opacity="0.5" />
+            <circle cx="64.5" cy="40" r="1.8" fill="currentColor" opacity="0.5" />
+            <circle cx="40" cy="64.5" r="1.8" fill="currentColor" opacity="0.5" />
+            <circle cx="15.5" cy="40" r="1.8" fill="currentColor" opacity="0.5" />
+            <rect x="27" y="27" width="26" height="26" transform="rotate(45 40 40)" fill="none" stroke="currentColor"
+                stroke-width="1.6" />
+            <rect x="31" y="31" width="18" height="18" transform="rotate(45 40 40)" fill="currentColor" opacity="0.1" />
+        </svg>
+        <div class="logo-wordmark">
+            <span class="logo-script">ಆಹಾರ ಭವನ</span>
+            <span class="logo-name">Aahara Bhavan</span>
+        </div>
+    </div>
+</body>
+
+</html>

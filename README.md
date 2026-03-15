@@ -2,11 +2,12 @@
 
 A simple demo website built with HTML, CSS, and JavaScript.
 
-## View on GitHub
+## Quick View
 
-[View `index.html` on GitHub](https://github.com/sarthaksharma1177-rgb/demo-website/blob/main/index.html) 
+[Open `index.html` on GitHub](https://github.com/sarthaksharma1177-rgb/demo-website/blob/main/index.html)  
+Click the link above to view your website directly in your browser.
 
-## Files
+
 
 | File | Description |
 |------|-------------|

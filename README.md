@@ -4,9 +4,7 @@ A simple demo website built with HTML, CSS, and JavaScript.
 
 ## Quick View
 
-[Open `index.html` on GitHub](https://github.com/sarthaksharma1177-rgb/demo-website/blob/main/index.html)  
-Click the link above to view your website directly in your browser.
-
+[View Live Website](https://sarthaksharma1177-rgb.github.io/demo-website/) 🚀
 
 
 | File | Description |
